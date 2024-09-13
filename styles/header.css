@@ -2,6 +2,8 @@
     width: 24px;
     height: 24px;
     background: url("../img/Menu.png");
+    background-repeat: no-repeat;
+    background-position: center;
     display: inline-block;
 }
 
@@ -15,5 +17,10 @@
 .container{
     display: flex;
     align-items: center;
+    
+}
+
+.container-imagem{
+    padding: 1em;
     
 }
