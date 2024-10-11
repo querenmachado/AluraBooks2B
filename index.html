@@ -63,6 +63,7 @@
         <h2 class="carrossel-titulo">Novos lançamentos</h2>
 
         <div class="swiper">
+            <div class="swiper-pagination"></div>
 
             <div class="swiper-wrapper">
                 <!-- Slides -->
@@ -84,15 +85,10 @@
                         alt="Livro sobre acessibilidade da AluraBooks"></div>
                 ...
             </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-
-            <!-- If we need navigation buttons -->
+           
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
 
-            <!-- If we need scrollbar -->
-            <div class="swiper-scrollbar"></div>
         </div>
     </section>
 
@@ -100,8 +96,12 @@
 
     <script>
         const swiper = new Swiper('.swiper', {
-            speed: 400,
-            spaceBetween: 100,
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-paination',
+                type: 'bullets',
+            },
         });
     </script>
 
