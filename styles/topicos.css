@@ -3,23 +3,19 @@
     text-align: center;
     padding: 1em 0;
 }
-
 .topicos-titulo{
     color: var(--branco);
     font-weight: 300;
     margin-bottom: 1em;
 }
-
 .topicos-lista{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-
 .topicos-item{
     margin: 2em 0.5em;
 }
-
 .topicos-link{
     background-color: var(--laranja);
     padding: 1em;
